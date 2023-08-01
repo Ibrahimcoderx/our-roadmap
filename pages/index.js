@@ -121,62 +121,36 @@ function index() {
                       {/* Small card 1---- */}
 
                       <div className='CardRoadmap_item2'>
-                        <h4>Set theme (dark/light) for Hellonext embed and widget implementations</h4>
+                        <h4>Funnelliner interactive dashboards  </h4>
                         <p>Jun 16th</p>
                         <Link href="">Feature request</Link>
                       </div>
                   
                       <div className='CardRoadmap_item2'>
-                        <h4>Set theme (dark/light) for Hellonext embed and widget implementations</h4>
+                        <h4>New user experiances  </h4>
                         <p>Jun 16th</p>
                         <Link href="">Feature request</Link>
                       </div>
                   
                       <div className='CardRoadmap_item2'>
-                        <h4>Set theme (dark/light) for Hellonext embed and widget implementations</h4>
+                        <h4>Added marketing tools</h4>
                         <p>Jun 16th</p>
                         <Link href="">Feature request</Link>
                       </div>
 
 
                       <div className='CardRoadmap_item2'>
-                        <h4>Set theme (dark/light) for Hellonext embed and widget implementations</h4>
+                        <h4>Update feedback features  </h4>
                         <p>Jun 16th</p>
                         <Link href="">Feature request</Link>
                       </div>
 
                       <div className='CardRoadmap_item2'>
-                        <h4>Set theme (dark/light) for Hellonext embed and widget implementations</h4>
+                        <h4>Image quality improved</h4>
                         <p>Jun 16th</p>
                         <Link href="">Feature request</Link>
                       </div>
 
-                      <div className='CardRoadmap_item2'>
-                        <h4>Set theme (dark/light) for Hellonext embed and widget implementations</h4>
-                        <p>Jun 16th</p>
-                        <Link href="">Feature request</Link>
-                      </div>
-
-                      <div className='CardRoadmap_item2'>
-                        <h4>Set theme (dark/light) for Hellonext embed and widget implementations</h4>
-                        <p>Jun 16th</p>
-                        <Link href="">Feature request</Link>
-                      </div>
-                  
-
-                      <div className='CardRoadmap_item2'>
-                        <h4>Set theme (dark/light) for Hellonext embed and widget implementations</h4>
-                        <p>Jun 16th</p>
-                        <Link href="">Feature request</Link>
-                      </div>
-                  
-
-                      <div className='CardRoadmap_item2'>
-                        <h4>Set theme (dark/light) for Hellonext embed and widget implementations</h4>
-                        <p>Jun 16th</p>
-                        <Link href="">Feature request</Link>
-                      </div>
-                  
 
                   </div>
                    
@@ -194,13 +168,31 @@ function index() {
 
 
                       <div className='CardRoadmap_item2'>
-                        <h4>Set theme (dark/light) for Hellonext embed and widget implementations</h4>
+                        <h4>Funnelliner interactive dashboards</h4>
                         <p>Jun 16th</p>
                         <Link href="">Feature request</Link>
                       </div>
 
                       <div className='CardRoadmap_item2'>
-                        <h4>Set theme (dark/light) for Hellonext embed and widget implementations</h4>
+                        <h4>Integrated with SEO tools  </h4>
+                        <p>Jun 16th</p>
+                        <Link href="">Feature request</Link>
+                      </div>
+                  
+                      <div className='CardRoadmap_item2'>
+                        <h4>Upgrades the system info   </h4>
+                        <p>Jun 16th</p>
+                        <Link href="">Feature request</Link>
+                      </div>
+                  
+                      <div className='CardRoadmap_item2'>
+                        <h4>Unlocking more features for user  </h4>
+                        <p>Jun 16th</p>
+                        <Link href="">Feature request</Link>
+                      </div>
+                  
+                      <div className='CardRoadmap_item2'>
+                        <h4>Analytical features enabled  </h4>
                         <p>Jun 16th</p>
                         <Link href="">Feature request</Link>
                       </div>
@@ -220,19 +212,19 @@ function index() {
                        {/* Small card 3----- */}
 
                       <div className='CardRoadmap_item2'>
-                        <h4>Set theme (dark/light) for Hellonext embed and widget implementations</h4>
+                        <h4>Api response improvement</h4>
                         <p>Jun 16th</p>
                         <Link href="">Feature request</Link>
                       </div>
                       
                       <div className='CardRoadmap_item2'>
-                        <h4>Set theme (dark/light) for Hellonext embed and widget implementations</h4>
+                        <h4>Dashboard features improvement</h4>
                         <p>Jun 16th</p>
                         <Link href="">Feature request</Link>
                       </div>
                       
                       <div className='CardRoadmap_item2'>
-                        <h4>Set theme (dark/light) for Hellonext embed and widget implementations</h4>
+                        <h4>Update feedback features</h4>
                         <p>Jun 16th</p>
                         <Link href="">Feature request</Link>
                       </div>
@@ -253,24 +245,24 @@ function index() {
                        {/* Small card 4----- */}
 
                       <div className='CardRoadmap_item2'>
-                        <h4>Set theme (dark/light) for Hellonext embed and widget implementations</h4>
+                        <h4>Critical bug issues solved</h4>
                         <p>Jun 16th</p>
                         <Link href="">Feature request</Link>
                       </div>
                       
                       <div className='CardRoadmap_item2'>
-                        <h4>Set theme (dark/light) for Hellonext embed and widget implementations</h4>
+                        <h4>Migration done</h4>
                         <p>Jun 16th</p>
                         <Link href="">Feature request</Link>
                       </div>
                       <div className='CardRoadmap_item2'>
-                        <h4>Set theme (dark/light) for Hellonext embed and widget implementations</h4>
+                        <h4>User resource up-to-date</h4>
                         <p>Jun 16th</p>
                         <Link href="">Feature request</Link>
                       </div>
                       
                       <div className='CardRoadmap_item2'>
-                        <h4>Set theme (dark/light) for Hellonext embed and widget implementations</h4>
+                        <h4>dashboards counter improved</h4>
                         <p>Jun 16th</p>
                         <Link href="">Feature request</Link>
                       </div>
