@@ -118,7 +118,7 @@ function index() {
                       <h5 className='CardRoadmap1'> <BsCircle/>Wishlist & Requests </h5>
                       <div className='RoadmapHr2'></div>
 
-                      {/* Small card----- */}
+                      {/* Small card 1---- */}
 
                       <div className='CardRoadmap_item2'>
                         <h4>Set theme (dark/light) for Hellonext embed and widget implementations</h4>
@@ -189,7 +189,7 @@ function index() {
                       <h5 className='CardRoadmap2'><BiBoltCircle/>Planned </h5>
                       <div className='RoadmapHr2'></div>
 
-                       {/* Small card----- */}
+                       {/* Small card 2----- */}
 
 
 
@@ -217,7 +217,7 @@ function index() {
                       <h5 className='CardRoadmap3'> <PiCheckCircleBold/>In Progress </h5>
                       <div className='RoadmapHr2'></div>
 
-                       {/* Small card----- */}
+                       {/* Small card 3----- */}
 
                       <div className='CardRoadmap_item2'>
                         <h4>Set theme (dark/light) for Hellonext embed and widget implementations</h4>
@@ -250,7 +250,7 @@ function index() {
                       <h5 className='CardRoadmap4'> <PiCheckCircleBold/>Completed</h5>
                       <div className='RoadmapHr2'></div>
 
-                       {/* Small card----- */}
+                       {/* Small card 4----- */}
 
                       <div className='CardRoadmap_item2'>
                         <h4>Set theme (dark/light) for Hellonext embed and widget implementations</h4>
