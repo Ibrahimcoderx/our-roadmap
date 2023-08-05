@@ -54,7 +54,7 @@
 .Roadmap_Menubar{
     margin: 10px 0px;
     display: flex;
-    justify-content: space-between;
+    gap: 10px;
     align-items: center;
 }
 
