@@ -6,8 +6,25 @@ import { BsCircle} from "react-icons/bs";
 import { BiBoltCircle } from "react-icons/bi";
 import { PiCheckCircleBold } from "react-icons/pi";
 
+// modal
+
+import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import Modal from 'react-bootstrap/Modal';
+
+// dropdown
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
+
+
 
 function index() {
+
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
 
   return (
 
@@ -24,19 +41,117 @@ function index() {
 
                       <div className='Roadmap_Menubar'>
 
-                          <div>
+                          <div className='Roadmap_Menubar1'>
 
                             <Link href=''>
                               <img className='LogoImg' src='/logo.png'></img>
                             </Link>
+
+                              <div className='Roadmap_Menubar_item2'>
+
+                                <Link href=''>
+                                    ROADMAP
+                                </Link>
+                              
+                              </div>
                             
                           </div>
 
-                          <div className='Roadmap_Menubar_item2'>
+                          <div className='Roadmap_Menubar_item3'>
 
-                            <Link href=''>
-                                 ROADMAP
-                            </Link>
+                              <>
+                                <Button className='RoadmapRight-Button'  onClick={handleShow}>
+                                    New Post
+                                </Button>
+
+                                <Modal show={show} onHide={handleClose} className='ModalPadding'>
+                                  <Modal.Header closeButton>
+                                    <Modal.Title>New Submission</Modal.Title>
+                                  </Modal.Header>
+                                  <Modal.Body>
+                                    <Form>
+                                      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                                        <Form.Label>Title</Form.Label>
+                                        <Form.Control
+                                          type="email"
+                                          placeholder=" Title of Your Submission"
+                                          autoFocus
+                                        />
+                                      </Form.Group>
+
+
+
+                                    <div className='Dropdownmain_Box'>
+
+                                        <Form.Group
+                                            className="mb-3 Dropdownbtn"
+                                            controlId="exampleForm.ControlTextarea1"
+                                          >
+                                            <Form.Label>Request</Form.Label>
+                                            <DropdownButton id="dropdown-basic-button" title="Requests & Wish List">
+                                              <Dropdown.Item href="#/action-1">Bugs & Fixes</Dropdown.Item>
+                                              <Dropdown.Item href="#/action-2">Features</Dropdown.Item>
+                                              <Dropdown.Item href="#/action-3">Integrations</Dropdown.Item>
+                                              <Dropdown.Item href="#/action-3">Requests & Wish List</Dropdown.Item>
+                                              <Dropdown.Item href="#/action-3">Themes / Templates</Dropdown.Item>
+                                            </DropdownButton>
+                                        </Form.Group>
+
+
+                                        <Form.Group
+                                            className="mb-3"
+                                            controlId="exampleForm.ControlTextarea1"
+                                          >
+                                            <Form.Label>Tags</Form.Label>
+                                            <DropdownButton id="dropdown-basic-button" title="Select Tags">
+                                              <Dropdown.Item href="#/action-1">Bug</Dropdown.Item>
+                                              <Dropdown.Item href="#/action-3">Element</Dropdown.Item>
+                                              <Dropdown.Item href="#/action-3">Improvement</Dropdown.Item>
+                                              <Dropdown.Item href="#/action-3">Integration</Dropdown.Item>
+                                              <Dropdown.Item href="#/action-2">CMS</Dropdown.Item>
+                                              <Dropdown.Item href="#/action-3">Element</Dropdown.Item>
+                                              <Dropdown.Item href="#/action-3">Dashboard</Dropdown.Item>
+                                             
+                                            </DropdownButton>
+                                        </Form.Group>
+
+
+                                    </div>
+
+                                    
+
+
+                                      <Form.Group
+                                        className="mb-3"
+                                        controlId="exampleForm.ControlTextarea1"
+                                      >
+                                        <Form.Label>Your Thoughts</Form.Label>
+                                        <Form.Control as="textarea" rows={3} />
+                                      </Form.Group>
+
+
+                                      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                                        <Form.Label>Email</Form.Label>
+                                        <Form.Control
+                                          type="email"
+                                          placeholder=" support@funnelliner.com"
+                                          autoFocus
+                                        />
+                                      </Form.Group>
+
+
+
+
+                                    </Form>
+                                  </Modal.Body>
+                                  <Modal.Footer>
+                                   
+                                    <Button className='RoadmapRight-Button_Last'  onClick={handleClose}>
+                                      New Post
+                                    </Button>
+                                  </Modal.Footer>
+                                </Modal>
+                              </>
                             
                           </div>
 

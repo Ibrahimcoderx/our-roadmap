@@ -54,7 +54,13 @@
 .Roadmap_Menubar{
     margin: 10px 0px;
     display: flex;
+    justify-content: space-between;
     gap: 10px;
+    align-items: center;
+}
+
+.Roadmap_Menubar1{
+    display: flex;
     align-items: center;
 }
 
@@ -144,7 +150,6 @@
    top: 0;
    padding: 12px;
    background-color: #F5F5F5;
-   
 }
 
 .CardRoadmap .CardRoadmap1 svg{
@@ -166,6 +171,7 @@
    font-size:14px;
    margin-right: 5px;
 }
+
 
 .CardRoadmap .CardRoadmap2{
    padding: 15px 10px 10px 10px;
@@ -247,3 +253,87 @@
     background-color: transparent; 
   }
   
+
+  /* Modal */
+
+
+.RoadmapRight-Button{
+    background-color: #A16207 !important;
+    padding: 4px 10px !important;
+    outline: none;
+    border: none;
+    --bs-btn-border-color: none !important;
+}
+
+.RoadmapRight-Button:hover{
+    background-color: #7c5116 !important;
+}
+
+
+
+  .Dropdownmain_Box{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .Dropdownmain_Box div {
+    width: 100% ;
+  }
+
+    .Dropdownmain_Box button{
+        width: 100% ;
+    }
+
+    #dropdown-basic-button{
+        --bs-btn-border-color: none !important;
+        background-color: #a078ff;
+    }
+
+    #dropdown-basic-button:hover{
+        --bs-btn-border-color: none !important;
+        background-color: #7557bb;
+    }
+
+    .RoadmapRight-Button_Last{
+        --bs-btn-border-color: none !important;
+        background-color: #a078ff !important;
+        margin-bottom: 30px !important;
+    }
+
+    .RoadmapRight-Button_Last:hover{
+        background-color: #7f66b6 !important;
+    }
+
+
+    .ModalPadding{
+        margin-top: 100px;
+    }
+
+    .ModalPadding .modal-content {
+        padding: 0 15px;
+    }
+
+    .ModalPadding .modal-title {
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+
+    
+    @media (max-width: 991.98px) { 
+
+        .LogoImg {
+            height: 32px;
+        }
+
+        .Roadmap_Menubar_item2 a {
+            font-size: 16px;
+           margin-left: 5px;
+        }
+
+        .RoadmapRight-Button{
+            padding: 3px 10px !important;
+         
+        }
+
+    }
